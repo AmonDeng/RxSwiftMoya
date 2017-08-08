@@ -1,0 +1,47 @@
+PODS:
+  - Alamofire (4.0.1)
+  - MBProgressHUD (1.0.0)
+  - Moya/Core (8.0.0-beta.1):
+    - Alamofire (~> 4.0.0)
+    - Result
+  - Moya/RxSwift (8.0.0-beta.1):
+    - Moya/Core
+    - RxSwift (= 3.0.0-beta.1)
+  - ObjectMapper (2.2.8)
+  - Result (3.2.3)
+  - RxCocoa (3.0.0-beta.1):
+    - RxSwift (~> 3.0.0-beta.1)
+  - RxSwift (3.0.0-beta.1)
+  - Toast (3.1.0)
+
+DEPENDENCIES:
+  - MBProgressHUD
+  - Moya/RxSwift (from `https://github.com/Moya/Moya.git`, tag `8.0.0-beta.1`)
+  - ObjectMapper
+  - RxCocoa (= 3.0.0-beta.1)
+  - RxSwift (= 3.0.0-beta.1)
+  - Toast
+
+EXTERNAL SOURCES:
+  Moya:
+    :git: https://github.com/Moya/Moya.git
+    :tag: 8.0.0-beta.1
+
+CHECKOUT OPTIONS:
+  Moya:
+    :git: https://github.com/Moya/Moya.git
+    :tag: 8.0.0-beta.1
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  Moya: 63c4a59d2643c824df8c5a3b3a5f38dc2b48b055
+  ObjectMapper: 3d571bb5af471c779e1160828cd9ad5c4ef90958
+  Result: 128640a6347e8d2ae48b142556739a2d13f90ce6
+  RxCocoa: 8cecf331302b8ae5381bbab1bccba4ede2eae6a8
+  RxSwift: 0823e8d7969c23bfa9ddfb2afa4881e424a1a710
+  Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
+
+PODFILE CHECKSUM: ed08fb52975592e635ac74727c9ea2e037ce4be6
+
+COCOAPODS: 1.2.1
